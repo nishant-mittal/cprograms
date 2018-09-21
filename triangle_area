@@ -1,9 +1,14 @@
 #include<stdio.h>
+float height,base;
+float area()
+{
+    return(((0.5) * base * height));
+}
 int main(void)
 {
-  float height,base,area;
-  printf("Enter base and height:");
-  scanf("\n%f%f",&base,&height);
-  area = ((0.5) * base * height);
-  printf("Area:%f",area);
+
+  printf("Enter base and height:\n");
+  scanf("%f%f",&base,&height);
+
+  printf("Area:%f\n",area());
 }
