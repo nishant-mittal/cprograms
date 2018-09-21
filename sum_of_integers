@@ -1,5 +1,5 @@
 #include<stdio.h>
-int num[100],size,sum,i;
+int num[100],size,sum=0,i;
 int sumofintegers()
 {
   for(i=0;i<size;i++)
