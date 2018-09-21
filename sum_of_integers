@@ -1,0 +1,21 @@
+#include<stdio.h>
+int num[100],size,sum,i;
+int sumofintegers()
+{
+  for(i=0;i<size;i++)
+  {
+    sum = sum + num[i];
+  }
+  return sum;
+}
+int main(void)
+{
+  printf("Enter the number of integers:\n");
+  scanf("%d",&size);
+  printf("Enter the integers:\n");
+  for(i=0;i<size; i++)
+  {
+    scanf("%i",&num[i]);
+  }
+  printf("Sum: %d \n",sumofintegers());
+}
