@@ -1,0 +1,14 @@
+#include<stdio.h>
+struct triangle
+{
+  float base;
+  float height;
+  float area;
+}t;
+int main(void)
+{
+  printf("Enter the base and height:\n");
+  scanf("%f%f",&t.base,&t.height);
+  t.area = (0.5) * (t.base) * (t.height);
+  printf("Area: %f\n",t.area);
+}
